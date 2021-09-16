@@ -1,0 +1,11 @@
+[srv]
+192.168.60.3
+192.168.60.4
+192.168.60.5
+
+[workstaion]
+192.168.60.6
+
+[multi:children]
+srv
+workstaion
